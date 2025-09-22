@@ -7,3 +7,33 @@ text-shadow: 1px 0.5px 1px black;
 b {
     color: #e31837;
 }
+#bannerImg {
+    background-image: url(imgs/blurredCityImg.png);
+    background-color: black;
+}
+
+.text-body-emphasis {
+    --bs-text-opacity: 1;
+    color: #ffffff !important;
+    font-size: 96px;
+    text-shadow: 1px 0.5px 1px black;
+}
+.lead {
+    color: white;
+    font-family: "ff-meta-headline-web-pro", sans-serif;
+font-weight: 700;
+font-style: normal;
+text-shadow: 1px 0.5px 1px black;
+font-size: 40px;
+}
+.introBtns {
+    background-color: #e31837;
+    
+}
+.introBtns:hover {
+    background-color: #720c1c;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
