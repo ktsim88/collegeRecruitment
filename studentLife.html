@@ -85,16 +85,15 @@
                 </div>
             </div>
             <!-- campus panel-->
-            <div class="row" id="campusPanel">
+            <div class="row d-none" id="campusPanel">
               <h1 class="my-3">Choose the Campus</h1>
                 <div class="col-md-3 col-sm-12"><button type="button" onclick="openCampus1()">Busch</button></div>
                 <div class="col-md-3 col-sm-12"><button type="button" onclick="openCampus2()">Livingston</button></div>
                 <div class="col-md-3 col-sm-12"><button type="button" onclick="openCampus3()">College Avenue</button></div>
                 <div class="col-md-3 col-sm-12"><button type="button" onclick="openCampus4()">Cook/Douglass</button></div>
             </div>
-            
-            <!-- busch -->
-             <div class="row" id="busch">
+            <div id="campuses" class="">
+                <div class="row d-none" id="busch">
               <h1 class="my-3">Busch Campus</h1>
                 <div class="col-md-4 col-sm-12">
                     <div class="card h-100">
@@ -183,7 +182,7 @@
                 </div>
             </div>
             <!-- livingston -->
-             <div class="row" id="livingston">
+             <div class="row d-none" id="livingston">
               <h1 class="my-3">Livingston Campus</h1>
                 <div class="col-md-4 col-sm-12">
                     <div class="card h-100">
@@ -273,7 +272,7 @@
                 </div>
             </div>
              <!-- college ave -->
-              <div class="row" id="collegeAve">
+              <div class="row d-none" id="collegeAve">
               <h1 class="my-3">College Avenue</h1>
                 <div class="col-md-4 col-sm-12">
                     <div class="card h-100">
@@ -362,7 +361,7 @@
                 </div>
             </div>
               <!-- Cook/Douglass -->
-               <div class="row" id="cook">
+               <div class="row d-none" id="cook">
               <h1 class="my-3">Cook & Douglass Campuses</h1>
                 <div class="col-md-4 col-sm-12">
                     <div class="card h-100">
@@ -450,12 +449,15 @@
                     </div>
                 </div>
             </div>
-            <!-- ECs and Events -->
-             <h2>Clubs and Organizations</h2>
+            </div>
+             
+            <!-- ECs and Events --> 
+                <div class="row d-none" id="ECSRow">
+                    <h2>Clubs and Organizations</h2>
              <p>Heres the link to all the clubs that Rutgers has to offer.</p>
              <button><a href="https://rutgers.campuslabs.com/engage/organizations" target="_blank">Clubs and Organizations/a></button>
-                <div class="row">
-                    <h2>Extracurricular Activities and Events</h2>
+
+                <h3 class="my-3">Extracurricular Activities and Events</h3>
                     <div class="col-md-4 col-12"><a
                         name=""
                         id=""
