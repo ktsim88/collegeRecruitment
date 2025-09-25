@@ -13,16 +13,15 @@
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
             rel="stylesheet"
-            integrity="sha384-T3c6CIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
             crossorigin="anonymous"
         />
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-    <header>
-        <!-- navbar -->
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <!-- navbar -->
+     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
       <b>RU</b>TGERS
@@ -70,13 +69,12 @@
           </div>
         </div>
       </nav>
-    </header>
     <!-- main content -->
     <main>
         <div class="container text-center mt-3">
             <div class="row">
                 <h1>Student Life</h1>
-                <p>Here you can learn about the campuses, the housing options, and all of the activites that the school has to offer.</p>
+                <p>Here you will learn about the campuses, the housing options, and the activities that Rutgers has to offer.</p>
             </div>
             <div class="row">
                 <div class="col-md-6 col-sm-12">
@@ -89,10 +87,10 @@
             <!-- campus panel-->
             <div class="row" id="campusPanel">
               <h1 class="my-3">Choose the Campus</h1>
-                <div class="col-md-3 col-sm-12"><button type="button" class="btn btn-primary my-3 py-2" onclick="openCampus1()">Busch</button></div>
-                <div class="col-md-3 col-sm-12"><button type="button" class="btn btn-primary my-3 py-2" onclick="openCampus2()">Livingston</button></div>
-                <div class="col-md-3 col-sm-12"><button type="button" class="btn btn-primary my-3 py-2" onclick="openCampus3()">College Avenue</button></div>
-                <div class="col-md-3 col-sm-12"><button type="button" class="btn btn-primary my-3 py-2" onclick="openCampus4()">Cook/Douglass</button></div>
+                <div class="col-md-3 col-sm-12"><button type="button" onclick="openCampus1()">Busch</button></div>
+                <div class="col-md-3 col-sm-12"><button type="button" onclick="openCampus2()">Livingston</button></div>
+                <div class="col-md-3 col-sm-12"><button type="button" onclick="openCampus3()">College Avenue</button></div>
+                <div class="col-md-3 col-sm-12"><button type="button" onclick="openCampus4()">Cook/Douglass</button></div>
             </div>
             
             <!-- busch -->
@@ -100,63 +98,10 @@
               <h1 class="my-3">Busch Campus</h1>
                 <div class="col-md-4 col-sm-12">
                     <div class="card h-100">
-                        <div id="buschCarousel" class="carousel slide card-img-top">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#buschCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#buschCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#buschCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#buschCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-    <button type="button" data-bs-target="#buschCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="..." class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#buschCarousel" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#buschCarousel" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+                        <img src="https://picsum.photos/id/1076/600/400" alt="" class="card-img-top">
                         <div class="card-body">
-                            <h4 class="card-title">Title</h4>
-                            <p class="card-text">Text</p>
+                            <h4 class="card-title">Busch Campus</h4>
+                            <p class="card-text">Busch Campus is home to all of the STEM classes. The School of Engineering and Ernest Mario School of Pharmacy are homed here. Busch Campus offers the SHI Stadium which hosts Rutgers football. It also offers other recreation facilities and an outdoor art gallery. It is also home to many research centers.</p>
                         </div>
                     </div>
                 </div>
@@ -220,78 +165,32 @@
   </button>
 </div>
                         <div class="card-body">
-                            <h4 class="card-title">Title</h4>
-                            <p class="card-text">Text</p>
+                            <h4 class="card-title">Busch Housing</h4>
+                            <p class="card-text">Busch Campus has seven different buildings for first year students. Some of them are traditional halls, suites, or apartments.<br>
+                            <a
+                                name=""
+                                id=""
+                                class="btn btn-primary"
+                                href="https://ruoncampus.rutgers.edu/living-on-campus/busch-campus"
+                                role="button"
+                                target="_blank"
+                                >All Options</a
+                            >
+                            
+                            </p>
                         </div>
                     </div>
-                </div>
-                <div class="moreInfo my-3">
-                    <h1>More Info</h1>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum unde aperiam quos libero vel aut non voluptas magni, autem ducimus tempore accusantium perspiciatis voluptates veniam? Libero vitae ipsum eligendi quod.
                 </div>
             </div>
             <!-- livingston -->
              <div class="row" id="livingston">
-              <h1 class="my-3">Busch Campus</h1>
+              <h1 class="my-3">Livingston Campus</h1>
                 <div class="col-md-4 col-sm-12">
                     <div class="card h-100">
-                        <div id="buschCarousel" class="carousel slide card-img-top">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#buschCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#buschCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#buschCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#buschCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-    <button type="button" data-bs-target="#buschCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="..." class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#buschCarousel" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#buschCarousel" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+                        <img src="https://picsum.photos/id/684/600/400?blur=5" alt="" class="card-img-top">
                         <div class="card-body">
-                            <h4 class="card-title">Title</h4>
-                            <p class="card-text">Text</p>
+                            <h4 class="card-title">Livingston Campus</h4>
+                            <p class="card-text">Livingston Campus is home to the Rutgers Business School. This campus has a movie theater and many restaurants like Qdoba Mexican Grill. There are a lot of solar panels in this campus. The Asian Americal Cultural Center is housed here.</p>
                         </div>
                     </div>
                 </div>
@@ -300,13 +199,13 @@
                 </div>
                 <div class="col-md-4 col-sm-12">
                     <div class="card h-100">
-                        <div id="buschHousing" class="carousel slide card-img-top">
+                        <div id="liviHousing" class="carousel slide card-img-top">
   <div class="carousel-indicators">
-    <button type="button" data-bs-target="#buschHousing" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#buschHousing" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#buschHousing" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#buschHousing" data-bs-slide-to="3" aria-label="Slide 4"></button>
-    <button type="button" data-bs-target="#buschHousing" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#liviHousing" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#liviHousing" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#liviHousing" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#liviHousing" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#liviHousing" data-bs-slide-to="4" aria-label="Slide 5"></button>
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -345,88 +244,43 @@
       </div>
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#buschHousing" data-bs-slide="prev">
+  <button class="carousel-control-prev" type="button" data-bs-target="#liviHousing" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#buschHousing" data-bs-slide="next">
+  <button class="carousel-control-next" type="button" data-bs-target="#liviHousing" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
 </div>
                         <div class="card-body">
-                            <h4 class="card-title">Title</h4>
-                            <p class="card-text">Text</p>
+                            <h4 class="card-title">Housing</h4>
+                            <p class="card-text">There are five buildings for first year students and they are all traditional halls. There is also a dining hall on this campus.
+
+                                <br>
+                            <a
+                                name=""
+                                id=""
+                                class="btn btn-primary"
+                                href="https://ruoncampus.rutgers.edu/living-on-campus/livingston"
+                                role="button"
+                                target="_blank"
+                                >All Options</a
+                            >
+                            </p>
                         </div>
                     </div>
-                </div>
-                <div class="moreInfo my-3">
-                    <h1>More Info</h1>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum unde aperiam quos libero vel aut non voluptas magni, autem ducimus tempore accusantium perspiciatis voluptates veniam? Libero vitae ipsum eligendi quod.
                 </div>
             </div>
              <!-- college ave -->
               <div class="row" id="collegeAve">
-              <h1 class="my-3">Busch Campus</h1>
+              <h1 class="my-3">College Avenue</h1>
                 <div class="col-md-4 col-sm-12">
                     <div class="card h-100">
-                        <div id="buschCarousel" class="carousel slide card-img-top">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#buschCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#buschCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#buschCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#buschCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-    <button type="button" data-bs-target="#buschCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="..." class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#buschCarousel" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#buschCarousel" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+                       <img src="https://picsum.photos/id/945/600/400" alt="" class="card-img-top">
                         <div class="card-body">
-                            <h4 class="card-title">Title</h4>
-                            <p class="card-text">Text</p>
+                            <h4 class="card-title">College Avenue</h4>
+                            <p class="card-text">College Avenue is home to the School of Arts and Sciences, Honors College, School of Planning and Public Policy, and School of Nursing. This campus is very lively with many events being held here. This campus also houses the Zimmerli Art Museum which is an art museum with many collections from Europe and Americas. It's also close to the NJ Transit train station.</p>
                         </div>
                     </div>
                 </div>
@@ -435,13 +289,13 @@
                 </div>
                 <div class="col-md-4 col-sm-12">
                     <div class="card h-100">
-                        <div id="buschHousing" class="carousel slide card-img-top">
+                        <div id="CAHousing" class="carousel slide card-img-top">
   <div class="carousel-indicators">
-    <button type="button" data-bs-target="#buschHousing" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#buschHousing" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#buschHousing" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#buschHousing" data-bs-slide-to="3" aria-label="Slide 4"></button>
-    <button type="button" data-bs-target="#buschHousing" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#CAHousing" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#CAHousing" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#CAHousing" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#CAHousing" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#CAHousing" data-bs-slide-to="4" aria-label="Slide 5"></button>
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -480,88 +334,42 @@
       </div>
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#buschHousing" data-bs-slide="prev">
+  <button class="carousel-control-prev" type="button" data-bs-target="#CAHousing" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#buschHousing" data-bs-slide="next">
+  <button class="carousel-control-next" type="button" data-bs-target="#CAHousing" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
 </div>
                         <div class="card-body">
-                            <h4 class="card-title">Title</h4>
-                            <p class="card-text">Text</p>
+                            <h4 class="card-title">Housing</h4>
+                            <p class="card-text">There are six different buildings for first year students and they are all traditional halls. There is also a dining hall on this campus.
+                                <br>
+                            <a
+                                name=""
+                                id=""
+                                class="btn btn-primary"
+                                href="https://ruoncampus.rutgers.edu/living-on-campus/college-ave"
+                                role="button"
+                                target="_blank"
+                                >All Options</a
+                            >
+                            </p>
                         </div>
                     </div>
-                </div>
-                <div class="moreInfo my-3">
-                    <h1>More Info</h1>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum unde aperiam quos libero vel aut non voluptas magni, autem ducimus tempore accusantium perspiciatis voluptates veniam? Libero vitae ipsum eligendi quod.
                 </div>
             </div>
               <!-- Cook/Douglass -->
                <div class="row" id="cook">
-              <h1 class="my-3">Busch Campus</h1>
+              <h1 class="my-3">Cook & Douglass Campuses</h1>
                 <div class="col-md-4 col-sm-12">
                     <div class="card h-100">
-                        <div id="buschCarousel" class="carousel slide card-img-top">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#buschCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#buschCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#buschCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#buschCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-    <button type="button" data-bs-target="#buschCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="..." class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#buschCarousel" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#buschCarousel" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+                        <img src="https://picsum.photos/id/743/600/400" alt="" class="card-img-top">
                         <div class="card-body">
-                            <h4 class="card-title">Title</h4>
-                            <p class="card-text">Text</p>
+                            <h4 class="card-title">Cook and Douglass Campuses</h4>
+                            <p class="card-text"><i>Technically, they are two seperate campuses but they are directly connected to each other.</i><br><br> Cook Campus houses the School of Enviromental and Biological Sciences and the Rutgers Garden. Douglass Campus houses the Mason Gross School of the Arts and Douglass Residential College which is a womens only college.</p>
                         </div>
                     </div>
                 </div>
@@ -570,13 +378,13 @@
                 </div>
                 <div class="col-md-4 col-sm-12">
                     <div class="card h-100">
-                        <div id="buschHousing" class="carousel slide card-img-top">
+                        <div id="CookHousing" class="carousel slide card-img-top">
   <div class="carousel-indicators">
-    <button type="button" data-bs-target="#buschHousing" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#buschHousing" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#buschHousing" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#buschHousing" data-bs-slide-to="3" aria-label="Slide 4"></button>
-    <button type="button" data-bs-target="#buschHousing" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#CookHousing" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#CookHousing" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#CookHousing" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#CookHousing" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#CookHousing" data-bs-slide-to="4" aria-label="Slide 5"></button>
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -615,26 +423,70 @@
       </div>
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#buschHousing" data-bs-slide="prev">
+  <button class="carousel-control-prev" type="button" data-bs-target="#CookHousing" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#buschHousing" data-bs-slide="next">
+  <button class="carousel-control-next" type="button" data-bs-target="#CookHousing" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
 </div>
                         <div class="card-body">
-                            <h4 class="card-title">Title</h4>
-                            <p class="card-text">Text</p>
+                            <h4 class="card-title">Housing</h4>
+                            <p class="card-text">There are eight different buildings and all of them are traditional halls. There is a dining hall in both of the campuses
+                                <br>
+                            <a
+                                name=""
+                                id=""
+                                class="btn btn-primary"
+                                href="https://ruoncampus.rutgers.edu/living-on-campus/cookdouglass"
+                                role="button"
+                                target="_blank"
+                                >All Options</a
+                            >
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="moreInfo my-3">
-                    <h1>More Info</h1>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum unde aperiam quos libero vel aut non voluptas magni, autem ducimus tempore accusantium perspiciatis voluptates veniam? Libero vitae ipsum eligendi quod.
-                </div>
             </div>
+            <!-- ECs and Events -->
+             <h2>Clubs and Organizations</h2>
+             <p>Heres the link to all the clubs that Rutgers has to offer.</p>
+             <button><a href="https://rutgers.campuslabs.com/engage/organizations" target="_blank">Clubs and Organizations/a></button>
+                <div class="row">
+                    <h2>Extracurricular Activities and Events</h2>
+                    <div class="col-md-4 col-12"><a
+                        name=""
+                        id=""
+                        class="btn btn-primary"
+                        href="https://scarletknights.com/index.aspx"
+                        role="button"
+                        target="_blank"
+                        >Sports</a
+                    >
+                    </div>
+                    <div class="col-md-4 col-12"><a
+                        name=""
+                        id=""
+                        class="btn btn-primary"
+                        href="https://www.masongross.rutgers.edu/degrees-programs/music/ensembles/"
+                        role="button"
+                        target="_blank"
+                        >Music</a
+                    >
+                    </div>
+                    <div class="col-md-4 col-12"><a
+                        name=""
+                        id=""
+                        class="btn btn-primary"
+                        href="https://rutgers.campuslabs.com/engage/events"
+                        role="button"
+                        target="_blank"
+                        >Events</a
+                    >
+                    </div>
+                </div>
         </div>
     </main>
     <footer>
@@ -647,11 +499,11 @@
       crossorigin="anonymous"
     ></script>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-      crossorigin="anonymous"
-    ></script>
-    <script src="script.js"></script>
-  </body>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+        <script src="script.js"></script>
+    </body>
 </html>
