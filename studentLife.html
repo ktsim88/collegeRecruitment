@@ -17,6 +17,7 @@
             integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
             crossorigin="anonymous"
         />
+        <link rel="stylesheet" href="https://use.typekit.net/fop1yai.css">
         <link rel="stylesheet" href="style.css">
     </head>
 
@@ -79,19 +80,19 @@
             </div>
             <div class="row">
                 <div class="col-md-6 col-sm-12">
-                    <button type="button" onclick="openHousing()" class="schoolBtn">Campus & Housing</button>
+                    <button type="button" onclick="openHousing()" class="btn btn-danger my-3">Campus & Housing</button>
                 </div>
                 <div class="col-md-6 col-sm-12">
-                    <button type="button" onclick="openECs()" class="schoolBtn">Extracurricular Activities & Events</button>
+                    <button type="button" onclick="openECs()" class="btn btn-danger my-3">Extracurricular Activities & Events</button>
                 </div>
             </div>
             <!-- campus panel-->
             <div class="row d-none" id="campusPanel">
               <h1 class="my-3">Choose the Campus</h1>
-                <div class="col-md-3 col-sm-12"><button type="button" onclick="openCampus1()">Busch</button></div>
-                <div class="col-md-3 col-sm-12"><button type="button" onclick="openCampus2()">Livingston</button></div>
-                <div class="col-md-3 col-sm-12"><button type="button" onclick="openCampus3()">College Avenue</button></div>
-                <div class="col-md-3 col-sm-12"><button type="button" onclick="openCampus4()">Cook/Douglass</button></div>
+                <div class="col-md-3 col-sm-12"><button type="button" class="btn btn-danger my-3" onclick="openCampus1()">Busch</button></div>
+                <div class="col-md-3 col-sm-12"><button type="button" class="btn btn-danger my-3" onclick="openCampus2()">Livingston</button></div>
+                <div class="col-md-3 col-sm-12"><button type="button"  class="btn btn-danger my-3" onclick="openCampus3()">College Avenue</button></div>
+                <div class="col-md-3 col-sm-12"><button type="button"  class="btn btn-danger my-3"onclick="openCampus4()">Cook/Douglass</button></div>
             </div>
             <div id="campuses" class="">
                 <div class="row mb-5 d-none" id="busch">
@@ -110,7 +111,7 @@
                     <a
                       name=""
                       id=""
-                      class="btn btn-danger mt-2"
+                      class="btn btn-danger mt-2 mb-5"
                       href="https://maps.rutgers.edu/map#/?lat=40.523966&lng=-74.462094&sidebar=true&underConstructionState=true&zoom=15"
                       role="button"
                       target="_blank"
@@ -202,7 +203,7 @@
                     <a
                       name=""
                       id=""
-                      class="btn btn-danger mt-2"
+                      class="btn btn-danger mt-2 mb-5"
                       href="https://maps.rutgers.edu/map#/?lat=40.521767&lng=-74.436258&ocf=true&sidebar=true&underConstructionState=true&zoom=15"
                       role="button"
                       target="_blank"
@@ -296,7 +297,7 @@
                     <a
                       name=""
                       id=""
-                      class="btn btn-danger mt-2"
+                      class="btn btn-danger mt-2 mb-5"
                       href="https://maps.rutgers.edu/map#/?lat=40.501519&lng=-74.449839&ocf=true&sidebar=true&underConstructionState=true&zoom=15"
                       role="button"
                       target="_blank"
@@ -389,7 +390,7 @@
                     <a
                       name=""
                       id=""
-                      class="btn btn-danger mt-2"
+                      class="btn btn-danger mt-2 mb-5"
                       href="https://maps.rutgers.edu/map#/?lat=40.480907&lng=-74.433789&ocf=true&sidebar=true&underConstructionState=true&zoom=15"
                       role="button"
                       target="_blank"
@@ -468,16 +469,19 @@
             </div>
              
             <!-- ECs and Events --> 
-                <div class="row d-none" id="ECSRow">
-                    <h2>Clubs and Organizations</h2>
+                <div class="d-none" id="ECSRow">
+                  <div class="row">
+<h2>Clubs and Organizations</h2>
              <p>Heres the link to all the clubs that Rutgers has to offer.</p>
-             <button><a href="https://rutgers.campuslabs.com/engage/organizations" target="_blank">Clubs and Organizations/a></button><br><br>
+             <button class="btn btn-danger my-3"><a href="https://rutgers.campuslabs.com/engage/organizations" target="_blank">Clubs and Organizations</a></button>
 
-              <h2>Extracurricular Activities and Events</h2>
+                  </div>
+                  <div class="row my-3">
+                    <h2>Extracurricular Activities and Events</h2>
                     <div class="col-md-4 col-12"><a
                         name=""
                         id=""
-                        class="btn btn-danger"
+                        class="btn btn-danger my-3"
                         href="https://scarletknights.com/index.aspx"
                         role="button"
                         target="_blank"
@@ -487,7 +491,7 @@
                     <div class="col-md-4 col-12"><a
                         name=""
                         id=""
-                        class="btn btn-danger"
+                        class="btn btn-danger my-3"
                         href="https://www.masongross.rutgers.edu/degrees-programs/music/ensembles/"
                         role="button"
                         target="_blank"
@@ -497,13 +501,15 @@
                     <div class="col-md-4 col-12"><a
                         name=""
                         id=""
-                        class="btn btn-danger"
+                        class="btn btn-danger my-3"
                         href="https://rutgers.campuslabs.com/engage/events"
                         role="button"
                         target="_blank"
                         >Events</a
                     >
                     </div>
+                  </div>
+                    
                 </div>
         </div>
     </main>

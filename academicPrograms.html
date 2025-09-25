@@ -17,6 +17,7 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://use.typekit.net/fop1yai.css">
     <link rel="stylesheet" href="style.css" />
   </head>
 
@@ -78,29 +79,37 @@
             <div class="row">
                 <h1>Academic Programs</h1>
                 <p>There are nineteen schools in Rutgers New Brunswick. 11 are undergraduate and 8 are graduate schools. However, I will only show three of the schools here.</p>
-                <button class="btn btn-primary"><a href="https://newbrunswick.rutgers.edu/academics/schools-colleges">All Schools Here</a></button>
+                <a
+                    name=""
+                    id=""
+                    class="btn btn-danger my-3"
+                    href="https://newbrunswick.rutgers.edu/academics/schools-colleges"
+                    role="button"
+                    >All Schools Here</a
+                >
+                
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-12">
-                    <button type="button" onclick="openSchool1()" class="schoolBtn">Rutgers Business School</button>
+                    <button type="button" onclick="openSchool1()" class="schoolBtn btn btn-danger my-3">Rutgers Business School</button>
                 </div>
                 <div class="col-md-4 col-sm-12">
-                    <button type="button" onclick="openSchool2()" class="schoolBtn">School of Arts and Sciences</button>
+                    <button type="button" onclick="openSchool2()" class="schoolBtn btn btn-danger my-3">School of Arts and Sciences</button>
                 </div>
                 <div class="col-md-4 col-sm-12">
-                    <button type="button" onclick="openSchool3()" class="schoolBtn">School of Engineering</button>
+                    <button type="button" onclick="openSchool3()" class="schoolBtn btn btn-danger my-3">School of Engineering</button>
                 </div>
             </div>
             <!-- business school (will be d-none)-->
             <div class="row d-none" id="school1">
               <h1 class="my-3">Rutgers Business School</h1>
-                <div class="col-md-6 col-12 px-3 mx-auto">
+                <div class="col-md-6 col-12 px-3 mx-auto my-3">
                     <div class="card h-100">
                         <img class="card-img-top" src="imgs/RUBusinessSchool.jpg" alt="Title" />
                         <div class="card-body">
                             <h4 class="card-title">Rutgers Business School</h4>
                             <p class="card-text">Rutgers Business School is home to all of the business programs, strong return on investment, and strong alumni connenctions. It is home to six majors including Supply Chain.</p>
-                            <button type="button"><a href="https://www.business.rutgers.edu/" target="_blank">Click to Learn More</a></button>
+                            <button type="button" class="btn btn-danger"><a href="https://www.business.rutgers.edu/" target="_blank">Click to Learn More</a></button>
                         </div>
                     </div>
                     
@@ -109,14 +118,14 @@
                     <div class="row">
                         <h3>Majors Offered</h3>
                         <p>Rutgers Business School offers six majors in total. Below will be three of the six majors and the links to the Curriculum and Faculty.</p>
-                        <button><a href="https://www.business.rutgers.edu/undergraduate-new-brunswick/academics" target="_blank">Learn More About Other Majors</a></button>
+                        <button class="btn btn-danger my-3"><a href="https://www.business.rutgers.edu/undergraduate-new-brunswick/academics" target="_blank">Learn More About Other Majors</a></button>
                     </div>
                     <div class="row my-3">
                         <div
                             class="table-responsive"
                         >
                             <table
-                                class="table table-primary"
+                                class="table table-danger"
                             >
                                 <thead>
                                     <tr>
@@ -130,13 +139,13 @@
                                         <td scope="row">Accounting</td>
                                         <td>
                                             An accounting major will give students a chance to learn about evaluating transactions, interpreting financial reports, and make wise decisions for organizations.<br>
-                                            <a href="https://www.business.rutgers.edu/undergraduate-new-brunswick/accounting" class="btn btn-primary" target="_blank">Learn More</a>
+                                            <a href="https://www.business.rutgers.edu/undergraduate-new-brunswick/accounting" class="btn btn-danger my-3" target="_blank">Learn More</a>
                                         </td>
                                         <td>
                                             <a
                                                 name=""
                                                 id=""
-                                                class="btn btn-primary"
+                                                class="btn btn-danger"
                                                 href="https://www.business.rutgers.edu/faculty/michael-alles"
                                                 role="button"
                                                 target="_blank"
@@ -152,7 +161,7 @@
                                             <a
                                                 name=""
                                                 id=""
-                                                class="btn btn-primary"
+                                                class="btn btn-danger my-3"
                                                 href="https://www.business.rutgers.edu/undergraduate-new-brunswick/business-analytics-information-technology"
                                                 role="button"
                                                 target="_blank"
@@ -163,7 +172,7 @@
                                         <td><a
                                                 name=""
                                                 id=""
-                                                class="btn btn-primary"
+                                                class="btn btn-danger"
                                                 href="https://www.business.rutgers.edu/faculty/wajahat-gilani"
                                                 role="button"
                                                 target="_blank"
@@ -177,7 +186,7 @@
                                             <a
                                                 name=""
                                                 id=""
-                                                class="btn btn-primary"
+                                                class="btn btn-danger my-3"
                                                 href="https://www.business.rutgers.edu/undergraduate-new-brunswick/finance"
                                                 role="button"
                                                 target="_blank"
@@ -188,7 +197,7 @@
                                         <td><a
                                                 name=""
                                                 id=""
-                                                class="btn btn-primary"
+                                                class="btn btn-danger"
                                                 href="https://www.business.rutgers.edu/faculty/ronnee-ades"
                                                 role="button"
                                                 target="_blank"
@@ -211,23 +220,23 @@
                         <div class="card-body">
                             <h4 class="card-title">School of Arts and Sciences</h4>
                             <p class="card-text">The School of Arts and Sciences is home to having the most majors at Rutgers University. This school is also known for their research programs.</p>
-                            <button type="button"><a href="https://sas.rutgers.edu/" target="_blank">Click to Learn More</a></button>
+                            <button type="button" class="btn btn-danger my-3"><a href="https://sas.rutgers.edu/" target="_blank">Click to Learn More</a></button>
                         </div>
                     </div>
                     
                 </div>
-                <div class="col-md-6 col-12 px-3 mx-auto">
+                <div class="col-md-6 col-12 px-3 mx-auto mt-3">
                     <div class="row">
                         <h3>Majors Offered</h3>
                         <p>School of Arts and Sciences offers over 100 majors. Only three of them will be shown here. The Curriculum and Faculty for each major will be listed below.</p>
-                        <button><a href="https://sasundergrad.rutgers.edu/majors-and-core-curriculum/major/list-of-majors-and-minors?option=com_latestnewsenhancedpro&view=articles&layout=list&category=&tag=&author=&alias=&period=&stage=&field_48=Major&field_98=&limitstart=0&filter_order=&filter_order_Dir=ASC&3804482fed737c3006a045b032510136=1&filter-search=&filter-match=any&field_48_selector_top=Major&field_98_selector_top=" target="_blank">More Majors Here</a></button>
+                        <button class="btn btn-danger my-3"><a href="https://sasundergrad.rutgers.edu/majors-and-core-curriculum/major/list-of-majors-and-minors?option=com_latestnewsenhancedpro&view=articles&layout=list&category=&tag=&author=&alias=&period=&stage=&field_48=Major&field_98=&limitstart=0&filter_order=&filter_order_Dir=ASC&3804482fed737c3006a045b032510136=1&filter-search=&filter-match=any&field_48_selector_top=Major&field_98_selector_top=" target="_blank">More Majors Here</a></button>
                     </div>
                     <div class="row my-3">
                         <div
                             class="table-responsive"
                         >
                             <table
-                                class="table table-primary"
+                                class="table table-danger"
                             >
                                 <thead>
                                     <tr>
@@ -244,7 +253,7 @@
                                             <a
                                                 name=""
                                                 id=""
-                                                class="btn btn-primary"
+                                                class="btn btn-danger my-3"
                                                 href="https://www.cs.rutgers.edu/academics/undergraduate/cs-degrees/b-s-degree"
                                                 role="button"
                                                 target="_blank"
@@ -253,7 +262,7 @@
                                         <td><a
                                                 name=""
                                                 id=""
-                                                class="btn btn-primary"
+                                                class="btn btn-danger my-3"
                                                 href="https://www.cs.rutgers.edu/people/professors"
                                                 role="button"
                                                 target="_blank"
@@ -268,7 +277,7 @@
                                             <a
                                                 name=""
                                                 id=""
-                                                class="btn btn-primary"
+                                                class="btn btn-danger my-3"
                                                 href="https://ds.sas.rutgers.edu/data-science-program/b-s-in-data-science"
                                                 role="button"
                                                 target="_blank"
@@ -278,7 +287,7 @@
                                         <td><a
                                                 name=""
                                                 id=""
-                                                class="btn btn-primary"
+                                                class="btn btn-danger"
                                                 href="https://ds.sas.rutgers.edu/data-science-people/data-science-program-faculty"
                                                 role="button"
                                                 target="_blank"
@@ -293,7 +302,7 @@
                                             <a
                                                 name=""
                                                 id=""
-                                                class="btn btn-primary"
+                                                class="btn btn-danger my-3"
                                                 href="https://www.stat.rutgers.edu/majors"
                                                 role="button"
                                                 target="_blank"
@@ -304,7 +313,7 @@
                                             <a
                                                 name=""
                                                 id=""
-                                                class="btn btn-primary"
+                                                class="btn btn-danger"
                                                 href="https://www.stat.rutgers.edu/people-pages/faculty"
                                                 role="button"
                                                 target="_blank"
@@ -328,7 +337,7 @@
                         <div class="card-body">
                             <h4 class="card-title">School of Engineering</h4>
                             <p class="card-text">School of Engineering is known for its engineering programs and research at Rutgers University. This is the only public school in New Jersey that offers aerospace engineering.</p>
-                            <button type="button"><a href="https://soe.rutgers.edu/">Click to Learn More</a></button>
+                            <button type="button" class="btn btn-danger my-3"><a href="https://soe.rutgers.edu/">Click to Learn More</a></button>
                         </div>
                     </div>
                     
@@ -337,14 +346,14 @@
                     <div class="row">
                         <h3>Majors Offered</h3>
                         <p>School of Engineering offers 12 majors at this school. Only three of them will be shown here. The Curriculum and Faculty for each major will be shown here.</p>
-                        <button><a href="https://soe.rutgers.edu/academics/majors-and-areas-study">More Majors Here</a></button>
+                        <button class="btn btn-danger my-3"><a href="https://soe.rutgers.edu/academics/majors-and-areas-study">More Majors Here</a></button>
                     </div>
                     <div class="row my-3">
                         <div
                             class="table-responsive"
                         >
                             <table
-                                class="table table-primary"
+                                class="table table-danger"
                             >
                                 <thead>
                                     <tr>
@@ -361,7 +370,7 @@
                                             <br><a
                                                 name=""
                                                 id=""
-                                                class="btn btn-primary"
+                                                class="btn btn-danger my-3"
                                                 href="https://www.ece.rutgers.edu/computer-engineering-curricular-options"
                                                 role="button"
                                                 target="_blank"
@@ -370,7 +379,7 @@
                                         <td><a
                                                 name=""
                                                 id=""
-                                                class="btn btn-primary"
+                                                class="btn btn-danger"
                                                 href="https://www.ece.rutgers.edu/full_time_faculty"
                                                 role="button"
                                                 target="_blank"
@@ -385,7 +394,7 @@
                                             <a
                                                 name=""
                                                 id=""
-                                                class="btn btn-primary"
+                                                class="btn btn-danger my-3"
                                                 href="https://ise.rutgers.edu/node/19"
                                                 role="button"
                                                 target="_blank"
@@ -395,7 +404,7 @@
                                         <td><a
                                                 name=""
                                                 id=""
-                                                class="btn btn-primary"
+                                                class="btn btn-danger my-3"
                                                 href="https://ise.rutgers.edu/staff-directory"
                                                 role="button"
                                                 target="_blank"
@@ -410,7 +419,7 @@
                                             <a
                                                 name=""
                                                 id=""
-                                                class="btn btn-primary"
+                                                class="btn btn-danger my-3"
                                                 href="https://mae.rutgers.edu/mechanical-engineering-curriculum"
                                                 role="button"
                                                 target="_blank"
@@ -421,7 +430,7 @@
                                             <a
                                                 name=""
                                                 id=""
-                                                class="btn btn-primary"
+                                                class="btn btn-danger"
                                                 href="https://mae.rutgers.edu/people/faculty"
                                                 role="button"
                                                 target="_blank"
